@@ -1,3 +1,3 @@
 # Benchmarking
 
-- [Cargo bench](cargo-bench.md)
+- [criterion](criterion.md)

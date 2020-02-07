@@ -1,3 +1,8 @@
+# Cargo bench
+
+## How to benchmark functions using criterion library?
+
+```rust
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
 
 pub fn fib(n: i32) -> i32 {
@@ -30,4 +35,6 @@ fn criterion_fib_fast(c: &mut Criterion) {
 
 criterion_group!(benches, criterion_fib_fast, criterion_fib_slow);
 criterion_main!(benches);
+```
+
 
