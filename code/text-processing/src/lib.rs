@@ -1,4 +1,5 @@
 use regex;
+use twoway;
 
 fn split_stuff() {
     let message = "Hello there | how are you ; doing?";
@@ -24,6 +25,11 @@ fn split_by_regex() {
     }
 }
 
+fn search_by_twoway() {
+    let loc = twoway::find_str("hello there how are you?", "there");
+    dbg!(loc);
+}
+
 #[cfg(test)]
 mod tests {
     use crate::*;
@@ -41,5 +47,10 @@ mod tests {
     #[test]
     fn test_split_by_regex() {
         split_by_regex();
+    }
+
+    #[test]
+    fn test_search_by_twoway() {
+        search_by_twoway();
     }
 }

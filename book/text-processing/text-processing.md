@@ -1,4 +1,4 @@
 # Text Processing
 
 - [Splitting a string into fields](string-splitting.md)
-- [Two way](twoway.md)
+- [Two way for fast substring search](twoway.md)
