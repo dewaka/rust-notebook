@@ -1,4 +1,4 @@
-# Cargo bench
+# Benchmarking using Criterion
 
 ## How to benchmark functions using criterion library?
 
@@ -37,4 +37,16 @@ criterion_group!(benches, criterion_fib_fast, criterion_fib_slow);
 criterion_main!(benches);
 ```
 
+Add following dependencies to the `Cargo.toml`.
 
+```yaml
+[dev-dependencies]
+criterion = "0.3.1"
+
+[[bench]]
+name = "lib"
+path = "src/lib.rs"
+harness = false
+```
+
+Benchmarks can be run by `cargo bench`.
