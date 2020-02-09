@@ -30,6 +30,23 @@ fn search_by_twoway() {
     dbg!(loc);
 }
 
+fn string_starts_or_ends_with() {
+    let s = "Hello there";
+
+    dbg!(s.starts_with("Hello"));
+    dbg!(s.ends_with("there"));
+}
+
+fn string_to_vecs_and_back() {
+    let s = "Hello there";
+
+    // Convert a string to a Vec<char>
+    let cvec: Vec<char> = s.chars().collect();
+
+    // Convert a Vec<char> into a String
+    let back: String = cvec.into_iter().collect();
+}
+
 #[cfg(test)]
 mod tests {
     use crate::*;
@@ -52,5 +69,10 @@ mod tests {
     #[test]
     fn test_search_by_twoway() {
         search_by_twoway();
+    }
+
+    #[test]
+    fn test_string_starts_or_ends_with() {
+        string_starts_or_ends_with();
     }
 }
