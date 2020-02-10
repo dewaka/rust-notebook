@@ -11,4 +11,6 @@
 * [Testing](book/testing/testing.md)
 * [Package Management](book/package-management/package-management.md)
   - [Cargo workspaces](book/package-management/cargo-workspaces.md)
+* [Parallel Programming](book/parallel-programming/parallel-programming.md)
+  - [Ryaon](book/parallel-programming/rayon.md)
 * [TODO](TODO.md)

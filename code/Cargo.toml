@@ -4,4 +4,5 @@ members = [
   "benchmarking",
   "testing",
   "text-processing",
+  "parallel-processing",
 ]
