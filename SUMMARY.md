@@ -2,6 +2,8 @@
 
 * [Introduction](README.md)
 * [Rust Introduction](book/intro.md)
+* [Collections](book/collections/collections.md)
+  - [Hashing](book/collections/hashing.md)
 * [Text Processing](book/text-processing/text-processing.md)
   - [Splitting a string](book/text-processing/string-splitting.md)
   - [Converting a string to vectors and back](book/text-processing/string-to-vecs.md)

@@ -5,4 +5,5 @@ members = [
   "testing",
   "text-processing",
   "parallel-processing",
+  "collections",
 ]
