@@ -6,4 +6,5 @@ members = [
   "text-processing",
   "parallel-processing",
   "collections",
+  "optimisations",
 ]

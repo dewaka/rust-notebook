@@ -19,4 +19,6 @@
     - [Bastion](book/concurrent-programming/bastion.md)
 * [Parallel Programming](book/parallel-programming/parallel-programming.md)
   - [Ryaon](book/parallel-programming/rayon.md)
+* [Optimisations](book/optimisations/optimisations.md)
+  - [Cache alignment](book/optimisations/cache.md)
 * [TODO](TODO.md)
